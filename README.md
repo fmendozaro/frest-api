@@ -73,8 +73,11 @@ http://localhost:1337/reviews/?restaurant_id=<restaurant_id>
 ```
 
 #### Get all restaurant reviews
+
+By default, the limit is 30 items this can be change by adding a `limit` get parameter
 ```
 http://localhost:1337/reviews/
+http://localhost:1337/reviews?limit=100
 ```
 
 #### Get a restaurant review by id
